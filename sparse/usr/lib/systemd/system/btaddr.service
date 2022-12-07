@@ -1,0 +1,12 @@
+[Unit]                                                                                                                                                                
+Description=macaddrsetup                                                                                                                                              
+After=droid-hal-init.service                                                                                                                                          
+Before=connman.service                                                                                                                                                
+                                                                                                                                                                      
+[Service]                                                                                                                                                             
+Type=oneshot                                                                                                                                                          
+RemainAfterExit=yes                                                                                                                                                   
+ExecStart=/bin/sh /usr/bin/droid/btaddr.sh                                                                                                                                                                                                                                                                     
+                                                                                                                                                                      
+[Install]                                                                                                                                                             
+WantedBy=network.target    
