@@ -5,7 +5,7 @@
 %define vendor samsung
 
 %define vendor_pretty Samsung
-%define device_pretty Grand Neo Plus
+%define device_pretty Galaxy Tab E SM-T561
 
 # Community HW adaptations need this
 %define community_adaptation 1
